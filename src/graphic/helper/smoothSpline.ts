@@ -23,6 +23,7 @@ export default function smoothSpline(points: VectorArray[], isLoop?: boolean): V
         distance += v2Distance(points[i - 1], points[i]);
     }
 
+
     
     
     let segs = distance / 2;

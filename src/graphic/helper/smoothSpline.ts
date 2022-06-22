@@ -24,6 +24,7 @@ export default function smoothSpline(points: VectorArray[], isLoop?: boolean): V
     }
 
     
+    
     let segs = distance / 2;
     segs = segs < len ? len : segs;
     for (let i = 0; i < segs; i++) {
